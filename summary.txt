@@ -1,0 +1,31 @@
+
+1-Blockchain
+2-Block
+3-Transaction
+4-keygenerator
+5-main
+
+Block File:
+
+Contain the block properties and two methods
+1- make sure block contains valid transaction
+2- hash block with specific difficulty
+
+Transaction File:
+Contain the block properties
+It has multiple methods 
+1- hash the transaction
+2- signing transaction with a signing key
+3- validator: ensure transaction have signature and verify that the transaction hash not changed
+
+Keygenerator file:
+
+Create public and private key (wallet address)
+
+Blockchain File:
+
+Implements blockchain properties like difficulty and mining rewards ... etc
+
+It has the miningPendingTransaction method that mine block and insert them to the chain and also a method to validate the chain and many other methods
+
+
